@@ -3,12 +3,11 @@ package etcd
 import (
 	"context"
 
+	rd "etcd/server_registry_discover"
 	"fmt"
 	"time"
 
-	rd "github.com/1055373165/groupcache/server_registry_discover"
-
-	pb "github.com/1055373165/groupcache/groupcachepb"
+	pb "etcd/groupcachepb"
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 )

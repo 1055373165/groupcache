@@ -1,10 +1,9 @@
 package etcd
 
 import (
-	"sync"
-
 	"github.com/1055373165/groupcache/logger"
-	"github.com/1055373165/groupcache/lru"
+	"etcd/lru"
+	"sync"
 )
 
 // cache 模块负责提供对lru模块的并发控制

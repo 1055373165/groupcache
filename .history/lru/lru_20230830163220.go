@@ -2,8 +2,7 @@ package lru
 
 import (
 	"container/list"
-
-	"github.com/1055373165/groupcache/logger"
+	"etcd/logger"
 )
 
 type LRUCache struct {

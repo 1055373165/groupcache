@@ -3,11 +3,10 @@ package etcd
 import (
 	"errors"
 
-	"github.com/1055373165/groupcache/logger"
+	"etcd/logger"
 
+	"etcd/singleflight"
 	"sync"
-
-	"github.com/1055373165/groupcache/singleflight"
 )
 
 // groupcache 模块提供比 cache 更高一层的抽象能力

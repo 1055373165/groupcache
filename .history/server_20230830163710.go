@@ -12,11 +12,11 @@ import (
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"google.golang.org/grpc"
 
-	"github.com/1055373165/groupcache/consistenthash"
+	"etcd/consistenthash"
 	pb "github.com/1055373165/groupcache/groupcachepb"
-	"github.com/1055373165/groupcache/logger"
-	serverregistrydiscover "github.com/1055373165/groupcache/server_registry_discover"
-	"github.com/1055373165/groupcache/utils"
+	"etcd/logger"
+	serverregistrydiscover "etcd/server_registry_discover"
+	"etcd/utils"
 )
 
 // server 模块为 groupcache 之间提供了通信能力

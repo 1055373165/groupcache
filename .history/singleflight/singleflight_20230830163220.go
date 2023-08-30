@@ -1,7 +1,7 @@
 package singleflight
 
 import (
-	"github.com/1055373165/groupcache/logger"
+	"etcd/logger"
 	"os"
 	"sync"
 )

@@ -1,11 +1,10 @@
 package consistenthash
 
 import (
+	"etcd/conf"
+	"etcd/db"
+	"etcd/logger"
 	"testing"
-
-	"github.com/1055373165/groupcache/conf"
-	"github.com/1055373165/groupcache/db"
-	"github.com/1055373165/groupcache/logger"
 )
 
 func init() {

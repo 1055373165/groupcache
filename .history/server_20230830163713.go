@@ -14,9 +14,9 @@ import (
 
 	"github.com/1055373165/groupcache/consistenthash"
 	pb "github.com/1055373165/groupcache/groupcachepb"
-	"github.com/1055373165/groupcache/logger"
+	"etcd/logger"
 	serverregistrydiscover "github.com/1055373165/groupcache/server_registry_discover"
-	"github.com/1055373165/groupcache/utils"
+	"etcd/utils"
 )
 
 // server 模块为 groupcache 之间提供了通信能力

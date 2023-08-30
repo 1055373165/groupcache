@@ -1,7 +1,7 @@
 package consistenthash
 
 import (
-	"github.com/1055373165/groupcache/logger"
+	"etcd/logger"
 	"hash/crc32"
 	"sort"
 	"strconv"

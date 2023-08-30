@@ -2,11 +2,10 @@ package serverregistrydiscover
 
 import (
 	"context"
+	"etcd/logger"
 	"fmt"
 	"log"
 	"time"
-
-	"github.com/1055373165/groupcache/logger"
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/client/v3/naming/endpoints"
